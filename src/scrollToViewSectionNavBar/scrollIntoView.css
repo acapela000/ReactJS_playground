@@ -1,0 +1,35 @@
+nav {
+    top: 0;
+}
+
+ul {
+    background-color: burlywood;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+}
+
+section {
+    padding: 50vh 0;
+}
+
+.sect1 {
+    background-color: lightblue;
+}
+
+.sect2 {
+    background-color: lightgreen;
+}
+
+.sect3 {
+    background-color: bisque;
+}
+
+button {
+    border-radius: 50px;
+    border-color: blue;
+}
