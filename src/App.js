@@ -1,14 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import ScrollToSectionNav from './scrollToViewSectionNavBar/scrollIntoView'; 
+import ScrollToSectionNav from './scrollToViewSectionNavBar/scrollIntoView';
 import SearchWordInText from './searchWordInText/searchWordInText';
+import FunProfile from './funnyProfile/funProfile';
 
 
 function App() {
   return (
     <div className="App">
-     <ScrollToSectionNav/>
-     <SearchWordInText/>
+      {/* <ScrollToSectionNav />
+      <SearchWordInText /> */}
+      <FunProfile />
+      
     </div>
   );
 }
